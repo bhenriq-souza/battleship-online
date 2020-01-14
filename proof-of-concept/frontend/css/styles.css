@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+td {
+  width: 0.15%;
+  position: relative;
+  border: 1px solid black;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.flex-item {
+  width: 50%;
+  margin: 5px;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.console {
+  text-align: justify;
+  margin: 5px;
+  padding: 5px;
+}
+
+.player {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+
+.fleet {
+  padding: 5px;
+}
+
+.rounds {
+  padding: 5px;
+}
+
+.selectedCell {
+  background-color: chartreuse;
+}
